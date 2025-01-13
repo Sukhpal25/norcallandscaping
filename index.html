@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NorCal Landscaping - Ukiah, CA</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .hero {
+            background-image: url('./assets/sunny\ lawn.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+<nav class="fixed w-full bg-black shadow-lg z-50">
+    <div class="container mx-auto px-6 py-3">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="./assets/landscaping logo.jpg" alt="NorCal Landscaping Logo" class="h-12">
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="text-white hover:text-green-600">Home</a>
+                <a href="#about" class="text-white hover:text-green-600">About</a>
+                <a href="#services" class="text-white hover:text-green-600">Services</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="https://www.instagram.com/norcal_landscaping707/" class="text-white hover:text-pink-400"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero h-screen flex items-center justify-center">
+        <div class="text-center text-white">
+            <h1 class="text-6xl font-bold mb-4">NorCal Landscaping</h1>
+            <p class="text-3xl font-bold mb-4">One Call Does It All</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-x8TMDjmdGHxNNL5rMIllgItgwMuGGS2PJe2pOMqU5KCVUA/viewform?usp=dialog" class="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700">
+                Contact Us
+            </a>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">About Us</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="./assets/image.png" alt="About Us" class="rounded-lg shadow-lg">
+                </div>
+                <div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        NorCal Landscaping has been serving the Ukiah community with premium landscaping services for years. Our team of experienced professionals is dedicated to creating and maintaining beautiful outdoor spaces that enhance your property's value and your quality of life.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        We take pride in our attention to detail, sustainable practices, and commitment to customer satisfaction. From design to maintenance, we're here to bring your landscaping vision to life.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="/assets/landscape.png" alt="Landscape Design" class="w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">Landscape Design</h3>
+                    <p class="text-gray-700">Professional landscape design services tailored to your property and preferences.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="/assets/lawn.png" alt="Lawn Maintenance" class="w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">Lawn Maintenance</h3>
+                    <p class="text-gray-700">Regular maintenance services to keep your lawn healthy and beautiful year-round.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="/assets/powerwashing.jpeg" alt="Hardscaping" class="w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">Powerwashing</h3>
+                    <p class="text-gray-700">Restore the beauty of your outdoor surfaces with our professional power washing services, effectively removing dirt, grime, and stains more.</p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-x8TMDjmdGHxNNL5rMIllgItgwMuGGS2PJe2pOMqU5KCVUA/viewform?usp=dialog" class="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 inline-block">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>© 2025 NorCal Landscaping. All rights reserved.</p>
+            <p class="mt-2">Serving Ukiah and surrounding areas</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</body>
+</html>
